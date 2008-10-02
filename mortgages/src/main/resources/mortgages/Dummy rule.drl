@@ -1,0 +1,10 @@
+package mortgages;
+
+rule "Dummy rule"
+
+when
+  //conditions
+then
+  //actions
+
+end
