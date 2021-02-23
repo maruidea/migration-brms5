@@ -10,4 +10,9 @@ rule "Rule1"
 		fact0.setName( "ricky" );
 		fact0.setGender( "pria" );
 		insert( fact0 );
+		Employee fact1 = new Employee();
+		fact1.setNik( "001" );
+		fact1.setName( "ricky" );
+		fact1.setGender( "pria" );
+		insertLogical( fact1 );
 end
