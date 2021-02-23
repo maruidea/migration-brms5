@@ -4,30 +4,27 @@
   <fixtures>
     <fact-data>
       <type>Employee</type>
-      <name>name</name>
+      <name>employee</name>
       <fieldData>
         <field-data>
           <name>name</name>
           <value>ricky</value>
-          <nature>0</nature>
+          <nature>1</nature>
         </field-data>
-      </fieldData>
-      <isModify>false</isModify>
-    </fact-data>
-    <fact-data>
-      <type>Employee</type>
-      <name>gender</name>
-      <fieldData>
         <field-data>
-          <name>name</name>
+          <name>gender</name>
           <value>pria</value>
-          <nature>0</nature>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>1748</executionTimeResult>
+      <numberOfRulesFired>100000</numberOfRulesFired>
+    </execution-trace>
   </fixtures>
+  <lastRunResult>2021-02-23 04:52:43.190 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
 <packageName>besmart</packageName>
