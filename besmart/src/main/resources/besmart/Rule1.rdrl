@@ -1,0 +1,13 @@
+package besmart;
+
+rule "Rule1"
+	dialect "mvel"
+	when
+		Employee( name == "ricky" , gender == "pria" )
+	then
+		Employee fact0 = new Employee();
+		fact0.setNik( "001" );
+		fact0.setName( "ricky" );
+		fact0.setGender( "pria" );
+		insert( fact0 );
+end
