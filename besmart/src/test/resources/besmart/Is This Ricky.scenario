@@ -1,0 +1,37 @@
+<scenario>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <fact-data>
+      <type>Employee</type>
+      <name>name</name>
+      <fieldData>
+        <field-data>
+          <name>name</name>
+          <value>ricky</value>
+          <nature>0</nature>
+        </field-data>
+      </fieldData>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>Employee</type>
+      <name>gender</name>
+      <fieldData>
+        <field-data>
+          <name>name</name>
+          <value>pria</value>
+          <nature>0</nature>
+        </field-data>
+      </fieldData>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+  </fixtures>
+  <rules/>
+  <inclusive>false</inclusive>
+<packageName>besmart</packageName>
+<imports>
+    <imports/>
+  </imports>
+</scenario>
