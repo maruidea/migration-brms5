@@ -20,7 +20,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>1748</executionTimeResult>
+      <executionTimeResult>3732</executionTimeResult>
       <numberOfRulesFired>100000</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -28,27 +28,18 @@
         <expect-field>
           <fieldName>nik</fieldName>
           <expected>001</expected>
+          <actualResult/>
+          <successResult>false</successResult>
+          <explanation>[employee] field [nik] was [] expected [001].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-      </fieldValues>
-      <name>employee</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
           <expected>ricky</expected>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
-      </fieldValues>
-      <name>employee</name>
-      <anonymous>false</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
         <expect-field>
           <fieldName>gender</fieldName>
           <expected>pria</expected>
@@ -60,7 +51,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2021-02-23 04:52:43.190 UTC</lastRunResult>
+  <lastRunResult>2021-02-23 04:56:43.350 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
 <packageName>besmart</packageName>
