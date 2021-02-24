@@ -1,0 +1,21 @@
+<decision-table52>
+  <tableName>decisionTableDemo</tableName>
+  <parentName></parentName>
+  <rowNumberCol>
+    <hideColumn>false</hideColumn>
+    <width>-1</width>
+  </rowNumberCol>
+  <descriptionCol>
+    <hideColumn>false</hideColumn>
+    <width>-1</width>
+  </descriptionCol>
+  <metadataCols/>
+  <attributeCols/>
+  <conditionPatterns/>
+  <actionCols/>
+  <imports>
+    <imports/>
+  </imports>
+  <packageName>bjb_demo</packageName>
+  <data/>
+</decision-table52>
