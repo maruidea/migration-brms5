@@ -14,13 +14,16 @@ public class Employee implements java.io.Serializable {
 
     private String nik;
 
+    private String position;
+
     public Employee() {
     }
     
-    public Employee(String nik, String name, String gender) {
+    public Employee(String nik, String name, String gender, String position) {
         this.nik = nik;
         this.name = name;
         this.gender = gender;
+        this.position = position;
     }
 
     public String getGender() {
@@ -45,6 +48,14 @@ public class Employee implements java.io.Serializable {
     
     public void setNik(String nik) {
         this.nik = nik;
+    }
+
+    public String getPosition() {
+        return this.position;
+    }
+    
+    public void setPosition(String position) {
+        this.position = position;
     }
 
 }
